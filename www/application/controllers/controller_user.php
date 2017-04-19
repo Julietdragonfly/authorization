@@ -53,5 +53,5 @@ class controller_user Extends Controller {
         session_unset();
         session_destroy();
         $this->redirect('');
-    }
+    }  
 }
